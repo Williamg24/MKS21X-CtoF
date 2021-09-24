@@ -9,7 +9,7 @@ public class CtoFTester {
   }
 
   public static double FahrenheitToCelsius(double fahr){
-    double cel = ((fahr - 32) / 1.8);
+    double cel = ((fahr - 32) * 5/9);
     return cel;
   }
   public static void main (String[]args){
