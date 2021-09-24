@@ -8,7 +8,12 @@ public class CtoFTester {
     return fahr;
   }
 
+  public static double FahrenheitToCelsius(double fahr){
+    double cel = ((fahr - 32) / 1.8);
+    return cel;
+  }
   public static void main (String[]args){
-    System.out.println(celsiusToFahrenheit (13.4));
+    System.out.println("13.4 degrees celsius is " + celsiusToFahrenheit (13.4) + " degrees fahrenheit.");
+    System.out.println("115.2 degrees fahrenheit is " + FahrenheitToCelsius (115.2) + " degrees celsius.");
     }
 }
